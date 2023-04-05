@@ -1,0 +1,83 @@
+/*-- é a configuração padrão universal na página*/
+*{
+	margin:0;/* tirando todas as margens*/ 
+	padding:0;/*tirando todos os espaços entre a margin e o texto*/
+	
+}
+
+/* classe cabecario */
+.cabecario{
+				background-color:#B0E0E6;/* cor de fundo da página*/ 
+				border-bottom:1px solid #fff;/* linha de margin*/
+          }
+		  
+/* Nav */		  
+nav{
+	width:1500px;/* altura*/
+	height:50px;/* largura*/
+	background-color:#D8BFD8; /* cor de fundo da página*/
+	text-align:center;/* centraliza o texto*/
+    }
+	
+nav ul li a{
+	font-family:Impact;/* fonte do texto*/ 
+	font-size:20px;/* tamanho do texto*/
+	color:#000;/* cor da fonte do texto*/ 
+	text-decoration:none;/* tira o sublinhado do texto*/
+	}
+	
+	nav ul li{
+		list-style:none;/*tira as bolinhas do texto*/ 
+		display:inline;/* deixa o texto em uma linha*/ 
+		padding:4px;/* espaço entre as palavras de 4 px*/
+	}
+	
+/* hover é para dar efeito quando passa o mouse na palavra*/ 
+nav ul li a:hover{
+		background-color:#4682B4;/* cor de fundo quando passar o mouse*/ 
+		padding:5px;/* espaço entre as palavras*/
+	}
+	
+/* primeira div com a classe ParteUm*/	
+.ParteUm{
+			max-width:1400px;/* deixa uma largura de 1400 px*/
+			margin-top:25px;/* deixa 25px de distancia da margin de cima*/
+			margin-left:auto;/* deixa o texto da margen a esquerda automatico*/
+			margin-right:auto;/* deixa o texto da margen a direita automatico*/
+			margin-bottom:25px;/* deixa o texto da margen de baixo com 25px*/
+			padding:10px 12px;/* deixa espaço entre o texto de 10px cima e 12px direita*/
+			border-radius:2px;/* arredondamento a 2px*/
+			background-color:#4682B4;/*cor do fundo*/
+			border-bottom:1px solid #fff;/*faz uma margim apenas em baixo com cor*/
+			border-top:1px solid #fff;/* faz uma margem em cima apenas com cor*/
+}
+
+/*estilizando o id da imagem*/ 
+#imagem1{
+			width:1400px;/* largura*/
+			height:1000px;/*altura*/ 
+			margin-left:0px;/* margem a esquerda de 0px*/
+}
+
+/* estilizando o paragrafo*/
+p{
+			margin-top:15px;/* margem em cima de 30px*/ 
+			text-align:center; /* alinhamento do texto*/
+			font-family:Impact;/* fonte do texto*/ 
+			font-size: 30px;/*tamanho do texto*/
+}
+
+/* estilizando a classe tabela*/ 
+.tabela{
+			margin-left:50px;/* margem de 50px a esquerda*/
+}
+
+/* estilizando o rodape*/
+footer{
+	width:100%;/* largura*/
+	height:70%;/* altura*/ 
+	text-align:center;/* alinhamento do texto*/
+	font-family:Georgia; /* fonte do texto*/ 
+	color:#000;/* lcor do texto*/ 
+	background-color:#D8BFD8;/* cor de fundo */
+}
