@@ -28,19 +28,137 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.txtcomb = new System.Windows.Forms.TextBox();
+            this.txtvalor = new System.Windows.Forms.TextBox();
+            this.txtlitro = new System.Windows.Forms.TextBox();
+            this.lblcomb = new System.Windows.Forms.Label();
+            this.lbllitro = new System.Windows.Forms.Label();
+            this.lblvalor = new System.Windows.Forms.Label();
+            this.btncalcular = new System.Windows.Forms.Button();
+            this.btnlimpar = new System.Windows.Forms.Button();
+            this.btnvoltar = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // txtcomb
+            // 
+            this.txtcomb.Location = new System.Drawing.Point(459, 110);
+            this.txtcomb.Name = "txtcomb";
+            this.txtcomb.Size = new System.Drawing.Size(100, 22);
+            this.txtcomb.TabIndex = 0;
+            // 
+            // txtvalor
+            // 
+            this.txtvalor.Location = new System.Drawing.Point(459, 237);
+            this.txtvalor.Name = "txtvalor";
+            this.txtvalor.Size = new System.Drawing.Size(100, 22);
+            this.txtvalor.TabIndex = 1;
+            // 
+            // txtlitro
+            // 
+            this.txtlitro.Location = new System.Drawing.Point(459, 171);
+            this.txtlitro.Name = "txtlitro";
+            this.txtlitro.Size = new System.Drawing.Size(100, 22);
+            this.txtlitro.TabIndex = 2;
+            // 
+            // lblcomb
+            // 
+            this.lblcomb.AutoSize = true;
+            this.lblcomb.Location = new System.Drawing.Point(52, 113);
+            this.lblcomb.Name = "lblcomb";
+            this.lblcomb.Size = new System.Drawing.Size(350, 16);
+            this.lblcomb.TabIndex = 3;
+            this.lblcomb.Text = "Qual o tipo de combustível A para Alcool G para Gasolina";
+            // 
+            // lbllitro
+            // 
+            this.lbllitro.AutoSize = true;
+            this.lbllitro.Location = new System.Drawing.Point(52, 177);
+            this.lbllitro.Name = "lbllitro";
+            this.lbllitro.Size = new System.Drawing.Size(172, 16);
+            this.lbllitro.TabIndex = 4;
+            this.lbllitro.Text = "Quantos litros você colocou";
+            // 
+            // lblvalor
+            // 
+            this.lblvalor.AutoSize = true;
+            this.lblvalor.Location = new System.Drawing.Point(52, 237);
+            this.lblvalor.Name = "lblvalor";
+            this.lblvalor.Size = new System.Drawing.Size(39, 16);
+            this.lblvalor.TabIndex = 5;
+            this.lblvalor.Text = "Valor";
+            // 
+            // btncalcular
+            // 
+            this.btncalcular.Location = new System.Drawing.Point(55, 345);
+            this.btncalcular.Name = "btncalcular";
+            this.btncalcular.Size = new System.Drawing.Size(75, 23);
+            this.btncalcular.TabIndex = 6;
+            this.btncalcular.Text = "Calcular";
+            this.btncalcular.UseVisualStyleBackColor = true;
+            this.btncalcular.Click += new System.EventHandler(this.btncalcular_Click);
+            // 
+            // btnlimpar
+            // 
+            this.btnlimpar.Location = new System.Drawing.Point(274, 345);
+            this.btnlimpar.Name = "btnlimpar";
+            this.btnlimpar.Size = new System.Drawing.Size(75, 23);
+            this.btnlimpar.TabIndex = 7;
+            this.btnlimpar.Text = "Limpar";
+            this.btnlimpar.UseVisualStyleBackColor = true;
+            // 
+            // btnvoltar
+            // 
+            this.btnvoltar.Location = new System.Drawing.Point(484, 345);
+            this.btnvoltar.Name = "btnvoltar";
+            this.btnvoltar.Size = new System.Drawing.Size(75, 23);
+            this.btnvoltar.TabIndex = 8;
+            this.btnvoltar.Text = "Voltar";
+            this.btnvoltar.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(52, 290);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(44, 16);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "label1";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // frm2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnvoltar);
+            this.Controls.Add(this.btnlimpar);
+            this.Controls.Add(this.btncalcular);
+            this.Controls.Add(this.lblvalor);
+            this.Controls.Add(this.lbllitro);
+            this.Controls.Add(this.lblcomb);
+            this.Controls.Add(this.txtlitro);
+            this.Controls.Add(this.txtvalor);
+            this.Controls.Add(this.txtcomb);
             this.Name = "frm2";
             this.Text = "Combustível";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.TextBox txtcomb;
+        private System.Windows.Forms.TextBox txtvalor;
+        private System.Windows.Forms.TextBox txtlitro;
+        private System.Windows.Forms.Label lblcomb;
+        private System.Windows.Forms.Label lbllitro;
+        private System.Windows.Forms.Label lblvalor;
+        private System.Windows.Forms.Button btncalcular;
+        private System.Windows.Forms.Button btnlimpar;
+        private System.Windows.Forms.Button btnvoltar;
+        private System.Windows.Forms.Label label1;
     }
 }

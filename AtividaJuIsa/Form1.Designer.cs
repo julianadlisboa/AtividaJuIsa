@@ -32,6 +32,10 @@
             this.algoritmosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.combustvelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.eleiçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tabuadaWhileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tabuadaDoWhileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tabuadaForToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,7 +54,11 @@
             // algoritmosToolStripMenuItem
             // 
             this.algoritmosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.combustvelToolStripMenuItem});
+            this.combustvelToolStripMenuItem,
+            this.eleiçãoToolStripMenuItem,
+            this.tabuadaWhileToolStripMenuItem,
+            this.tabuadaDoWhileToolStripMenuItem,
+            this.tabuadaForToolStripMenuItem});
             this.algoritmosToolStripMenuItem.Name = "algoritmosToolStripMenuItem";
             this.algoritmosToolStripMenuItem.Size = new System.Drawing.Size(97, 24);
             this.algoritmosToolStripMenuItem.Text = "Algoritmos";
@@ -66,8 +74,32 @@
             // 
             this.combustvelToolStripMenuItem.Name = "combustvelToolStripMenuItem";
             this.combustvelToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.combustvelToolStripMenuItem.Text = "Combust´vel";
+            this.combustvelToolStripMenuItem.Text = "Combustível";
             this.combustvelToolStripMenuItem.Click += new System.EventHandler(this.combustvelToolStripMenuItem_Click);
+            // 
+            // eleiçãoToolStripMenuItem
+            // 
+            this.eleiçãoToolStripMenuItem.Name = "eleiçãoToolStripMenuItem";
+            this.eleiçãoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.eleiçãoToolStripMenuItem.Text = "Eleição";
+            // 
+            // tabuadaWhileToolStripMenuItem
+            // 
+            this.tabuadaWhileToolStripMenuItem.Name = "tabuadaWhileToolStripMenuItem";
+            this.tabuadaWhileToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.tabuadaWhileToolStripMenuItem.Text = "tabuada while";
+            // 
+            // tabuadaDoWhileToolStripMenuItem
+            // 
+            this.tabuadaDoWhileToolStripMenuItem.Name = "tabuadaDoWhileToolStripMenuItem";
+            this.tabuadaDoWhileToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.tabuadaDoWhileToolStripMenuItem.Text = "tabuada do while";
+            // 
+            // tabuadaForToolStripMenuItem
+            // 
+            this.tabuadaForToolStripMenuItem.Name = "tabuadaForToolStripMenuItem";
+            this.tabuadaForToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.tabuadaForToolStripMenuItem.Text = "tabuada for";
             // 
             // frmmenu
             // 
@@ -91,6 +123,10 @@
         private System.Windows.Forms.ToolStripMenuItem algoritmosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem combustvelToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem eleiçãoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tabuadaWhileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tabuadaDoWhileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tabuadaForToolStripMenuItem;
     }
 }
 
