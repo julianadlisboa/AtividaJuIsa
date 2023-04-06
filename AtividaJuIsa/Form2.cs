@@ -17,33 +17,62 @@ namespace AtividaJuIsa
             InitializeComponent();
         }
 
+
         private void btncalcular_Click(object sender, EventArgs e)
         {
-            double litro, valor, desconto;
+            char 
+                comb=Convert.ToChar(txtcomb.Text);
+            double litro, valor;
+            litro=Convert.ToDouble(txtlitro.Text);
 
-            litro = Convert.ToDouble(txtlitro);
-            valor = Convert.ToDouble(txtvalor);
-            char comb;
-            comb = Convert.ToChar(txtcomb);
+            if (comb == 'A')
+            {
+                if (litro <= 20)
+                {
+                    valor = (litro / 4.90) * 3 / 100;
+                    txtvalor.Text = "$" + valor;
+                }
+                else
+                {
+                    valor = (litro / 4.90) * 5 / 100;
+                    txtvalor.Text = "$" + valor;
+                }
+            }
 
-            if (comb ="A"){
-            } if (litro <= 20)}
-        desconto=4,40-((4,40*3)/100);
-        valor = desconto* litro;
-        txtvalor.text="valor a ser pago é:,valor";private void label1_Click(object sender, EventArgs e)
+            else
+                    if (comb == 'G')
+            {
+                if (litro <= 20)
+                {
+                    valor = (litro / 5.50) * 4 / 100;
+                    txtvalor.Text = "$" + valor;
+                }
+                else
+                {
+                    valor = (litro / 5.50) * 6 / 100;
+                    txtvalor.Text = "$" + valor;
+                }
+            }
+
+        }
+
+        private void btnlimpar_Click(object sender, EventArgs e)
         {
+            txtcomb.Clear();
+            txtlitro.Clear();
+            txtvalor.Clear();
+            
+            txtcomb.Focus();
+        }
 
+        private void btnvoltar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmmenu frmmenu = new frmmenu();
+            frmmenu.Show();
         }
     }
-            else if(litro>20){
-        desconto=4,40((4,40*5)/100);
 
 
 
-
-
-
-
-        }
-    }
 }

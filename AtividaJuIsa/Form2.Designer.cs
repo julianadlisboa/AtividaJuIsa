@@ -66,33 +66,33 @@
             this.lblcomb.AutoSize = true;
             this.lblcomb.Location = new System.Drawing.Point(52, 113);
             this.lblcomb.Name = "lblcomb";
-            this.lblcomb.Size = new System.Drawing.Size(350, 16);
+            this.lblcomb.Size = new System.Drawing.Size(353, 16);
             this.lblcomb.TabIndex = 3;
-            this.lblcomb.Text = "Qual o tipo de combustível A para Alcool G para Gasolina";
+            this.lblcomb.Text = "Qual o tipo de combustível A para Álcool G para Gasolina:";
             // 
             // lbllitro
             // 
             this.lbllitro.AutoSize = true;
             this.lbllitro.Location = new System.Drawing.Point(52, 177);
             this.lbllitro.Name = "lbllitro";
-            this.lbllitro.Size = new System.Drawing.Size(172, 16);
+            this.lbllitro.Size = new System.Drawing.Size(175, 16);
             this.lbllitro.TabIndex = 4;
-            this.lbllitro.Text = "Quantos litros você colocou";
+            this.lbllitro.Text = "Quantos litros você colocou:";
             // 
             // lblvalor
             // 
             this.lblvalor.AutoSize = true;
             this.lblvalor.Location = new System.Drawing.Point(52, 237);
             this.lblvalor.Name = "lblvalor";
-            this.lblvalor.Size = new System.Drawing.Size(39, 16);
+            this.lblvalor.Size = new System.Drawing.Size(110, 16);
             this.lblvalor.TabIndex = 5;
-            this.lblvalor.Text = "Valor";
+            this.lblvalor.Text = "Valor a ser pago:";
             // 
             // btncalcular
             // 
-            this.btncalcular.Location = new System.Drawing.Point(55, 345);
+            this.btncalcular.Location = new System.Drawing.Point(55, 310);
             this.btncalcular.Name = "btncalcular";
-            this.btncalcular.Size = new System.Drawing.Size(75, 23);
+            this.btncalcular.Size = new System.Drawing.Size(75, 36);
             this.btncalcular.TabIndex = 6;
             this.btncalcular.Text = "Calcular";
             this.btncalcular.UseVisualStyleBackColor = true;
@@ -100,31 +100,33 @@
             // 
             // btnlimpar
             // 
-            this.btnlimpar.Location = new System.Drawing.Point(274, 345);
+            this.btnlimpar.Location = new System.Drawing.Point(274, 310);
             this.btnlimpar.Name = "btnlimpar";
-            this.btnlimpar.Size = new System.Drawing.Size(75, 23);
+            this.btnlimpar.Size = new System.Drawing.Size(75, 36);
             this.btnlimpar.TabIndex = 7;
             this.btnlimpar.Text = "Limpar";
             this.btnlimpar.UseVisualStyleBackColor = true;
+            this.btnlimpar.Click += new System.EventHandler(this.btnlimpar_Click);
             // 
             // btnvoltar
             // 
-            this.btnvoltar.Location = new System.Drawing.Point(484, 345);
+            this.btnvoltar.Location = new System.Drawing.Point(484, 310);
             this.btnvoltar.Name = "btnvoltar";
-            this.btnvoltar.Size = new System.Drawing.Size(75, 23);
+            this.btnvoltar.Size = new System.Drawing.Size(75, 36);
             this.btnvoltar.TabIndex = 8;
             this.btnvoltar.Text = "Voltar";
             this.btnvoltar.UseVisualStyleBackColor = true;
+            this.btnvoltar.Click += new System.EventHandler(this.btnvoltar_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(52, 290);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label1.Location = new System.Drawing.Point(52, 54);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 16);
+            this.label1.Size = new System.Drawing.Size(170, 16);
             this.label1.TabIndex = 9;
-            this.label1.Text = "label1";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.label1.Text = "Posto de Gasolina e Álcool";
             // 
             // frm2
             // 

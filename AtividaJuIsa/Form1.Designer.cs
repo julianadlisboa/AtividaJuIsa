@@ -30,12 +30,12 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.algoritmosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.combustvelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eleiçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabuadaWhileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabuadaDoWhileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabuadaForToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,13 +62,7 @@
             this.algoritmosToolStripMenuItem.Name = "algoritmosToolStripMenuItem";
             this.algoritmosToolStripMenuItem.Size = new System.Drawing.Size(97, 24);
             this.algoritmosToolStripMenuItem.Text = "Algoritmos";
-            // 
-            // sairToolStripMenuItem
-            // 
-            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(48, 24);
-            this.sairToolStripMenuItem.Text = "Sair";
-            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
+            this.algoritmosToolStripMenuItem.Click += new System.EventHandler(this.algoritmosToolStripMenuItem_Click);
             // 
             // combustvelToolStripMenuItem
             // 
@@ -82,24 +76,35 @@
             this.eleiçãoToolStripMenuItem.Name = "eleiçãoToolStripMenuItem";
             this.eleiçãoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.eleiçãoToolStripMenuItem.Text = "Eleição";
+            this.eleiçãoToolStripMenuItem.Click += new System.EventHandler(this.eleiçãoToolStripMenuItem_Click);
             // 
             // tabuadaWhileToolStripMenuItem
             // 
             this.tabuadaWhileToolStripMenuItem.Name = "tabuadaWhileToolStripMenuItem";
             this.tabuadaWhileToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.tabuadaWhileToolStripMenuItem.Text = "tabuada while";
+            this.tabuadaWhileToolStripMenuItem.Click += new System.EventHandler(this.tabuadaWhileToolStripMenuItem_Click);
             // 
             // tabuadaDoWhileToolStripMenuItem
             // 
             this.tabuadaDoWhileToolStripMenuItem.Name = "tabuadaDoWhileToolStripMenuItem";
             this.tabuadaDoWhileToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.tabuadaDoWhileToolStripMenuItem.Text = "tabuada do while";
+            this.tabuadaDoWhileToolStripMenuItem.Click += new System.EventHandler(this.tabuadaDoWhileToolStripMenuItem_Click);
             // 
             // tabuadaForToolStripMenuItem
             // 
             this.tabuadaForToolStripMenuItem.Name = "tabuadaForToolStripMenuItem";
             this.tabuadaForToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.tabuadaForToolStripMenuItem.Text = "tabuada for";
+            this.tabuadaForToolStripMenuItem.Click += new System.EventHandler(this.tabuadaForToolStripMenuItem_Click);
+            // 
+            // sairToolStripMenuItem
+            // 
+            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(48, 24);
+            this.sairToolStripMenuItem.Text = "Sair";
+            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
             // frmmenu
             // 
